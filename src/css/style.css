@@ -1,0 +1,71 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding:0;
+
+    font-family: 'Merienda', cursive;
+    background-image: url("../img/iztapalapa1.jpg");
+    
+    background-size: cover;
+}
+
+main{
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+header{
+    background: #682444;
+    color: white;
+    padding: 5px 10px;
+}
+
+h2{
+    background-color: #682444;
+    color: white;
+    padding: 5px 10px;
+}
+
+h3{
+    color: #682444;
+}
+
+article{
+    padding: 0 10px;
+}
+
+#invitados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#invitados h2{
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+#invitados article{
+    flex: 1 1 auto;
+    width: 200px;
+    margin: 0 20px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.invitado img{
+    width:150px;
+    border-radius: 50%;
+}
+
+.invitado p{
+    margin: 5px;
+}
+
+.invitado p span{
+    font-weight: bold;
+}
+
