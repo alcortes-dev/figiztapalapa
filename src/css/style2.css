@@ -4,14 +4,15 @@ body{
     padding:0;
 
     font-family: 'Merienda', cursive;
-    background-image: url("../img/iztapalapa1.jpg");
+    background-image: url("../img/guitarra1.jpg");
     
     background-size: cover;
 }
 
 main{
-    width: 900px;
-    margin: 0 auto;
+    max-width: 980px;
+    min-width: 375px;
+    margin: 20px auto;
     background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -24,11 +25,15 @@ header{
 header h1{
     margin:3px;
 }
+header img{
+    width: 140px;
+}
 
 h2{
     background-color: #682444;
     color: white;
     padding: 5px 10px;
+    margin:0;
 }
 
 h3{
@@ -39,22 +44,16 @@ article{
     padding: 0 10px;
 }
 
-#invitados{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+#fichas{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+    gap: 10px;
+    padding: 10px;
 }
 
-#invitados h2{
-    flex: 1 1 auto;
-    width: 100%;
-}
 
-#invitados article{
-    flex: 1 1 auto;
-    width: 200px;
-    margin: 0 20px;
+#fichas article{
+    flex: 1 1 200px;
     background-color: rgba(0,0,0,0.1);
     border-radius: 10px;
     text-align: center;
