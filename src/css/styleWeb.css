@@ -1,0 +1,44 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding:0;
+
+    font-family: 'Merienda', cursive;
+    background-color: #000;
+    background-image: url("../img/guitarra2.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+main{
+    max-width: 980px;
+    min-width: 375px;
+    margin: 20px auto;
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+}
+
+header{
+    background: #682444;
+    color: white;
+    padding: 3px 10px;
+    height: 70px;
+}
+header h1{
+    margin:3px;
+}
+header img{
+    width: 130px;
+}
+
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: #682444;
+    color: white;
+    padding: 3px 10px;
+    height: 70px;
+}

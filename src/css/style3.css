@@ -1,0 +1,144 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding:0;
+
+    font-family: 'Merienda', cursive;
+    background-color: #000;
+    background-image: url("../img/guitarra2.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+main{
+    max-width: 980px;
+    min-width: 375px;
+    margin: 20px auto;
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+}
+
+header{
+    background: #682444;
+    color: white;
+    padding: 3px 10px;
+    height: 70px;
+}
+header h1{
+    margin:3px;
+}
+header img{
+    width: 130px;
+}
+
+h2{
+    background-color: #682444;
+    color: white;
+    padding: 5px 10px;
+    margin:0;
+}
+
+h3{
+    color: #682444;
+}
+
+article{
+    padding: 0 10px;
+}
+
+#fichas{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+
+#fichas article{
+    flex: 1 1 200px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.invitado{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow:  row;
+    align-items: center;
+    margin: 5px 10px;
+}
+
+.invitado img{
+    width:60px;
+    border-radius: 50%;
+}
+
+.invitado p{
+    margin: 5px;
+    display: inline-block;
+}
+
+.invitado p span{
+    font-weight: bold;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    display: block;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+#pila{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+#pila article{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+#descripcionInvitado{
+    position: fixed;
+    width: auto;
+    height: 100%;
+    top:0;
+    left:0;
+    align-content:center;
+    padding: 0 calc(50% - 480px);
+
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows:min-content;
+    gap: 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#descripcionInvitado img{
+    width:120px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.img-invitado{
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+.info-tag{
+    text-align: right;
+    font-weight: bold;
+}
+
+.info-tag, .info-val{
+    padding: 5px;
+    background-color: rgba(200, 255, 255, 0.8);
+}
