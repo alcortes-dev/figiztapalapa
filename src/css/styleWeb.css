@@ -12,24 +12,37 @@ body{
     background-position: center ;
 }
 
+header{
+    background: #682444;
+    color: white;
+    padding: 3px 10px;
+    /*height: 70px;*/
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr) 3fr;
+    align-items: center;
+}
+header h1{
+    margin:3px;
+    display: inline-block;
+}
+header img{
+    width: 130px;
+}
+
+header ul, header ul li{
+    display: inline-block;
+    text-align: right;
+}
+
+header ul li{
+    margin: 5px;
+}
+
 main{
     max-width: 980px;
     min-width: 375px;
     margin: 20px auto;
     /*background-color: rgba(255, 255, 255, 0.8);*/
-}
-
-header{
-    background: #682444;
-    color: white;
-    padding: 3px 10px;
-    height: 70px;
-}
-header h1{
-    margin:3px;
-}
-header img{
-    width: 130px;
 }
 
 
@@ -42,3 +55,14 @@ footer{
     padding: 3px 10px;
     height: 70px;
 }
+
+#eventos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,  minmax(350px, 1fr));
+    gap: 10px;
+}
+
+evento-figi, interprete-info{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
