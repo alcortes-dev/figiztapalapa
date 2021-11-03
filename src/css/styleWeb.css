@@ -1,6 +1,10 @@
+*{
+    box-sizing:border-box;
+}
 body{
     width: 100%;
     margin: 0;
+    margin-bottom: 80px;
     padding:0;
 
     font-family: 'Merienda', cursive;
@@ -16,10 +20,15 @@ header{
     background: #682444;
     color: white;
     padding: 3px 10px;
+    width: 100%;
     /*height: 70px;*/
     display: grid;
     grid-template-columns: minmax(150px, 1fr) 3fr;
     align-items: center;
+    
+    /*position: fixed;
+    top:0;
+    box-sizing:border-box;*/
 }
 header h1{
     margin:3px;
@@ -54,6 +63,7 @@ footer{
     color: white;
     padding: 3px 10px;
     height: 70px;
+    box-sizing:border-box;
 }
 
 #eventos{
