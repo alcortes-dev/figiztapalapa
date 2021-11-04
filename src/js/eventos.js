@@ -79,7 +79,7 @@ const eventos = {
 const interpretes = {
     "0": {
         nombre: "Por definir",
-        resenia: ``,
+        resenia: `Por definir`,
         imagen: "./src/img/chile.jpeg"
     },
     "1": {
@@ -132,6 +132,40 @@ const programas = {
     "1": `<b>Programa1</b>`,
     "2": `<b>Programa1</b>`,
     "3": `<b>Programa1</b>`
+}
+
+const muestraInfo = (persona) => {
+    let espacio = document.getElementById('interpreteResumen')
+    console.log(espacio.children)
+    while(espacio.childElementCount){
+        espacio.removeChild(espacio.children[0])
+
+    }
+    let miInterprete = interpretes[persona]
+    let parrafos = miInterprete.resenia.split('\n')
+    
+    let titulo = creaElemento('h3', 'class', 'tituloInterpreteInfo')
+    titulo.textContent = interpretes[persona].nombre 
+    espacio.appendChild(titulo)
+
+    let p = null
+    for(let i of parrafos){
+        p = creaElemento('p')
+        p.textContent = i
+        espacio.appendChild(p)
+    }
+    let cierre = creaElemento('span', 'id', 'cierre')
+    cierre.textContent = 'X'
+    cierre.setAttribute('onClick', `cerrar()`)
+    espacio.appendChild(cierre)
+
+    espacio.style.display = 'block'
+    
+}
+
+const cerrar = () => {
+    let espacio = document.getElementById('interpreteResumen')
+    espacio.style.display = 'none'
 }
 
 const creaElemento = (elemento, atributo = null, valor = null) => {
@@ -248,13 +282,16 @@ class EventoFigi extends HTMLElement {
             eventData.appendChild(lineInfo('Imparte', "")) //`${interpretes[evento.imparte].nombre}`))
             interprete = creaElemento(`interprete-info`, 'persona', `${evento.imparte}`)
             interprete.actualiza()
+            interprete.setAttribute('onClick', `muestraInfo("${evento.imparte}")`)
             shadow.appendChild(interprete)
 
         }else{
+            eventData.appendChild(lineInfo('Interpretes', ""))
             for(let i of evento.programa){
                 for(let j of i){
                     interprete = creaElemento(`interprete-info`, 'persona', `${j.interprete}`)
                     interprete.actualiza()
+                    interprete.setAttribute('onClick', `muestraInfo("${j.interprete}")`)
                     shadow.appendChild(interprete)
                 }
                 
