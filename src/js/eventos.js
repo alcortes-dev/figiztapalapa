@@ -90,7 +90,7 @@ const interpretes = {
     "0": {
         nombre: "Por definir",
         resenia: `Por definir`,
-        imagen: "./src/img/chile.jpeg",
+        imagen: "./src/img/FIG_image.png",
         fondo: './src/img/FIGFondo.png'
     },
     "1": {
@@ -126,13 +126,13 @@ const interpretes = {
     "5": {
         nombre: "Compa Axel",
         resenia: "Reseña del interprete",
-        imagen: "./src/img/tomasa.jpg",
+        imagen: "./src/img/FIG_image.png",
         fondo: './src/img/FIGFondo.png'
     },
     "6": {
         nombre: "Sheila",
         resenia: "Reseña del interprete",
-        imagen: "./src/img/tomasa.jpg",
+        imagen: "./src/img/FIG_image.png",
         fondo: './src/img/FIGFondo.png'
     },
     "7": {
