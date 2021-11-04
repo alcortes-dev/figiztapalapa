@@ -46,22 +46,22 @@ const eventos = {
     "7": {
         tipo: "Clase Magistral",
         fecha: "27/11/2021", hora: "16:00",
-        recinto: "Por definir",
+        recinto: "Museo Nacional de las Culturas Polulares",
         imparte: 7
     },
     "8": {
         tipo: "Clase Magistral",
         fecha: "27/11/2021",  hora: "16:45",
-        recinto: "Por definir",
+        recinto: "Museo Nacional de las Culturas Polulares",
         imparte: 7
     },
     "9": {
         tipo: "Concierto",
         fecha: "27/11/2021",  hora: "17:30",
-        recinto: "Por definir",
+        recinto: "Museo Nacional de las Culturas Polulares",
         programa: [
-            [{ interprete: 0, contenido: null}],
-            [{ interprete: 0, contenido: null}]
+            [{ interprete: 8, contenido: null}],
+            [{ interprete: 9, contenido: null}]
         ]
     },
     "10": {
@@ -102,9 +102,11 @@ const interpretes = {
         imagen: "./src/img/Alan.jpg"
     },
     "4": {
-        nombre: "Axel",
-        resenia: "Reseña del interprete",
-        imagen: "./src/img/tomasa.jpg"
+        nombre: "Axel Trejo",
+        resenia: `Originario de la Ciudad de México comenzó sus estudios musicales a la edad de 19 años en el Centro de estudios profesionales a nivel profesional “Ad Libitum”, bajo la dirección del profesor Alexis Huerta. Además, ha complementado sus estudios siendo alumno de guitarristas de talla internacional como Alí Arango y Mauro Zanatta.
+        Sus intereses musicales se centran en la música escrita para laúd del S. XVI, particularmente se ha enfocado en la obra del compositor francés Adrian Le Roy de quien ha transcrito su Primer libro de tablatura de laúd.
+        Hoy en día estudia el ciclo propedéutico de la licenciatura Instrumentista en guitarra de la Facultad de Música de la UNAM bajo la cátedra del profesor José Luis Segura Maldonado.`,
+        imagen: "./src/img/Axel.jpg"
     },
     "5": {
         nombre: "Compa Axel",
@@ -126,6 +128,23 @@ const interpretes = {
         Realizó una gira con la Orquesta de Guitarras de Xalapa por un mes a China, desde Hong Kong hasta Beijing y se ha presentado en la Escuela de Artes Musicales de la Universidad de San José Costa Rica; en el Conservatorio de Música “G. B. Pergolesi” de Fermo Italia, así como una conferencia en la Universidad del Cuyo, Mendoza Argentina.`,
         imagen: "./src/img/Cutberto.jpg"
     },
+    "8": {
+        nombre: "Marco Mizael Blanno Lugo",
+        resenia: `Nació en el municipio de Tlalnepantla de Baz en el Estado de México en el año de 1990.
+        Inicio sus estudios de manera autodidacta en el ámbito popular a la edad de 14 años. Posteriormente ingresó a la Casa de Cultura de Coacalco en el año 2006 donde aprendió guitarra clásica.
+        En el año de 2015 ingresa a la Escuela de Bellas Artes de Tultepec bajo la tutela del maestro Jorge Pompa. Actualmente estudia la Licenciatura en Ejecución Musical en el área de Guitarra en la Escuela de Bellas Artes de Tultepec.
+        Ha tomado clases magistrales con el maestro Sergio Frías, Cutberto Córdoba, Natalia Tarquino, José Miguel García Torres, José Francisco Grijalva Vega, Edilberto Vega García, ha participado en cursos de dirección orquestal, métodos de pedagogía musical y el encuentro de guitarras de México de la FAM UNAM.
+        En el año 2018 ingresa a la Orquesta Sinfónica de la Universidad Autónoma de la Ciudad de México en la que participo en cuatro temporadas, realizando conciertos en distintas ferias del libro, noche de museos, ferias internacionales; interpretando obras de todo tipo de repertorio, incluyendo popular, pero en un formato de música académica.
+        De forma paralela a la Orquesta Sinfónica forma parte del Cuarteto de Guitarras de la OSUACM teniendo presentaciones en ciudad universitaria, museo de San Carlos, Ex convento de Culhuacán en noche de museos, entre otros.`,
+        imagen: "./src/img/Marco.jpg"
+    },
+    "9": {
+        nombre: "Marcos Yair Guzmán Rueda",
+        resenia: `Comenzó sus estudios formales de música en el instrumento de guitarra clásica en la Escuela de Iniciación Artística No. 2. Posteriormente, ingresó a la Escuela de Bellas Artes de Toluca en la carrera técnica de músico instrumentista en guitarra clásica. 
+        Actualmente estudia la carrera de instrumentista en guitarra de la Facultad de Música de la UNAM.
+        Ha tenido presentaciones como solista; así como integrante del Ensamble Juvenil de Guitarras de la EBAT en distintos lugares, tales como: en la Académica de Música Yamaha; en la sala Xochipilli por el "Taller de Guitarras Clásicas"; "La Feria del tamal 2018" en San Lorenzo Tetlixtac; en el colegio de "Comunidad Europea"; en el "Colegio Cultural Cuauhtémoc"; la casa de cultura de El Sifón en la CDMX, en el auditorio Mozart de la EBAT, entre otros.`,
+        imagen: "./src/img/Yair.jpg"
+    }
 }
 
 const programas = {
