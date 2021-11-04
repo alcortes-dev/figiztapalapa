@@ -89,10 +89,15 @@ evento-figi, interprete-info{
     background-color: rgba(0, 0, 0, 0.9);
     color:white;
     overflow:scroll;
+
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-position: top ;
 }
 
 #interpreteResumen h3{
     font-size: 3em;
+    margin-top: 140px;
 }
 
 #cierre {
@@ -100,10 +105,16 @@ evento-figi, interprete-info{
     top: 0;
     right: 0;
     padding: 10px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     background-color: white;
     color: black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 50%;
 }
 #cierre:hover {
-    background-color:yellow;
+    background-color:rgb(111, 132, 201);
+    font-weight: bold;
 }

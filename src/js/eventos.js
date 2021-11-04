@@ -88,7 +88,8 @@ const interpretes = {
         Fue ganadora del Segundo Lugar en el Concurso Latinoamericano de Mujeres Interpretes de la Guitarra en Hermosillo Sonora en 2018, fue candidata nominada por la Universidad Distrital al Premio Nacional Mujeres de Éxito – Colombia 2020, participó en el Latin American Music Festival Boston 2020, en el que fue ganadora de beca para tomar masterclass con la gran maestra Sharon Isbin, además de poder presentar un concierto de gala en el Auditorio en The Rivers School Conservatory of Music – Massachusetts, estas entre otras participaciones. Natalia ha pasado por la tutoría de grandes maestros de gran talla internacional, en Colombia su formación profesional comienza con los maestros de guitarra; Yimy Robles, León Salcedo, Mario Riveros y Juan Miguel Sossa, posteriormente en México llega bajo la tutoría del guitarrista y compositor Cutberto Córdova, y este camino se ha ido enriqueciendo con un gran número de clases magistrales cursadas con grandes guitarristas a nivel mundial, como lo son: William Anderson (Estados Unidos), Mauro Zanatta (Italia), Luis Quintero (Venezuela), Luis Zea (Venezuela), Antonio Laguna (México), Mauricio Hernández (México), Norman Ruiz (Estados Unidos), entre otros. 
         Su formación Musical se ha complementado con su experiencia como docente en el área infantil, donde ha podido emprender investigaciones entorno a la pedagogía infantil de la guitarra y los que ha logrado llevar a cabo en México. También emprendió estudios en el Área de la Dirección Orquestal, por lo que cursó en la Universidad Veracruzana el Diplomado en Ensambles Instrumentales, el que culminó y aprobó satisfactoriamente luego de dirigir en quinteto de cuerdas el 3er Movimiento (Sentimental Saraband) de la Simple Symphony de Benjamin Britten en 2021. 
         Actualmente Natalia se encuentra radicada en Xalapa - México donde tuvo la oportunidad de formar su perfil laboral, al entrar como Consultora Académica del Instituto Superior de Música del Estado de Veracruz en 2020. Hoy en día ocupa el cargo como Subdirectora Académica de esta institución; de tanto valor dentro del arte y la cultura veracruzana en el territorio mexicano.`,
-        imagen: "./src/img/Natalia.jpeg"
+        imagen: "./src/img/Natalia.jpeg",
+        fondo: './src/img/NataliaFondo.png'
     },
     "2": {
         nombre: "Blanca Pineda",
@@ -155,7 +156,6 @@ const programas = {
 
 const muestraInfo = (persona) => {
     let espacio = document.getElementById('interpreteResumen')
-    console.log(espacio.children)
     while(espacio.childElementCount){
         espacio.removeChild(espacio.children[0])
 
@@ -177,6 +177,9 @@ const muestraInfo = (persona) => {
     cierre.textContent = 'X'
     cierre.setAttribute('onClick', `cerrar()`)
     espacio.appendChild(cierre)
+    if(interpretes[persona].fondo) {
+        espacio.style.backgroundImage = `url('${interpretes[persona].fondo}')`
+    } 
 
     espacio.style.display = 'block'
     
