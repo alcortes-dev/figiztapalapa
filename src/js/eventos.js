@@ -179,6 +179,8 @@ const muestraInfo = (persona) => {
     espacio.appendChild(cierre)
     if(interpretes[persona].fondo) {
         espacio.style.backgroundImage = `url('${interpretes[persona].fondo}')`
+    }else{
+        espacio.style.backgroundImage = null
     } 
 
     espacio.style.display = 'block'
