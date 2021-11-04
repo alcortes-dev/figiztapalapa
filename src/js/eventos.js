@@ -3,18 +3,21 @@ const eventos = {
         tipo: "Clase Magistral",
         fecha: "20/11/2021", hora: "16:00",
         recinto: "Sala Quetzalcoatl",
+        referencia: 'https://www.google.com/maps/place/Auditorio+%22Quetzalcoatl%22/@19.3584681,-99.0905918,19.37z/data=!3m1!5s0x85d1fde5fe944127:0xa8ec348d62910dc9!4m5!3m4!1s0x85d1fde5fcdda86d:0x5397b1774d229a9e!8m2!3d19.3587669!4d-99.0906742',
         imparte: 1
     },
     "2": {
         tipo: "Clase Magistral",
         fecha: "20/11/2021",  hora: "16:45",
         recinto: "Sala Quetzalcoatl",
+        referencia: 'https://www.google.com/maps/place/Auditorio+%22Quetzalcoatl%22/@19.3584681,-99.0905918,19.37z/data=!3m1!5s0x85d1fde5fe944127:0xa8ec348d62910dc9!4m5!3m4!1s0x85d1fde5fcdda86d:0x5397b1774d229a9e!8m2!3d19.3587669!4d-99.0906742',
         imparte: 1
     },
     "3": {
         tipo: "Concierto",
         fecha: "20/11/2021",  hora: "18:00",
         recinto: "Sala Quetzalcoatl",
+        referencia: 'https://www.google.com/maps/place/Auditorio+%22Quetzalcoatl%22/@19.3584681,-99.0905918,19.37z/data=!3m1!5s0x85d1fde5fe944127:0xa8ec348d62910dc9!4m5!3m4!1s0x85d1fde5fcdda86d:0x5397b1774d229a9e!8m2!3d19.3587669!4d-99.0906742',
         programa: [
             [{ interprete: 2, contenido: null}],
             [{ interprete: 3, contenido: null}],
@@ -26,18 +29,21 @@ const eventos = {
         tipo: "Clase Magistral",
         fecha: "21/11/2021",  hora: "10:30",
         recinto: "Exconvento Culhuacan",
+        referencia: 'https://www.google.com/maps/place/Ex+Convento+de+Culhuac%C3%A1n/@19.3395286,-99.1081752,18z/data=!3m1!5s0x85ce01fdfb485a27:0xca00c51275a1e5ef!4m5!3m4!1s0x85ce01fded985e43:0x4199351d66eda0d6!8m2!3d19.3398968!4d-99.1074886',
         imparte: 0
     },
     "5": {
         tipo: "Clase Magistral",
         fecha: "21/11/2021",  hora: "11:15",
         recinto: "Exconvento Culhuacan",
+        referencia: 'https://www.google.com/maps/place/Ex+Convento+de+Culhuac%C3%A1n/@19.3395286,-99.1081752,18z/data=!3m1!5s0x85ce01fdfb485a27:0xca00c51275a1e5ef!4m5!3m4!1s0x85ce01fded985e43:0x4199351d66eda0d6!8m2!3d19.3398968!4d-99.1074886',
         imparte: 0
     },
     "6": {
         tipo: "Concierto",
         fecha: "21/11/2021",  hora: "12:30",
         recinto: "Exconvento Culhuacan",
+        referencia: 'https://www.google.com/maps/place/Ex+Convento+de+Culhuac%C3%A1n/@19.3395286,-99.1081752,18z/data=!3m1!5s0x85ce01fdfb485a27:0xca00c51275a1e5ef!4m5!3m4!1s0x85ce01fded985e43:0x4199351d66eda0d6!8m2!3d19.3398968!4d-99.1074886',
         programa: [
             [{ interprete: 6, contenido: null}],
             [{ interprete: 1, contenido: null}]
@@ -47,18 +53,21 @@ const eventos = {
         tipo: "Clase Magistral",
         fecha: "27/11/2021", hora: "16:00",
         recinto: "Museo Nacional de las Culturas Polulares",
+        referencia: 'https://www.google.com/maps/place/Museo+de+las+Culturas+pasi%C3%B3n+Por+iztapalapa/@19.3578932,-99.0886145,19z/data=!4m5!3m4!1s0x85d1fdef1f9a6ab3:0x109752766732863e!8m2!3d19.3575828!4d-99.0875471',
         imparte: 7
     },
     "8": {
         tipo: "Clase Magistral",
         fecha: "27/11/2021",  hora: "16:45",
         recinto: "Museo Nacional de las Culturas Polulares",
+        referencia: 'https://www.google.com/maps/place/Museo+de+las+Culturas+pasi%C3%B3n+Por+iztapalapa/@19.3578932,-99.0886145,19z/data=!4m5!3m4!1s0x85d1fdef1f9a6ab3:0x109752766732863e!8m2!3d19.3575828!4d-99.0875471',
         imparte: 7
     },
     "9": {
         tipo: "Concierto",
         fecha: "27/11/2021",  hora: "17:30",
         recinto: "Museo Nacional de las Culturas Polulares",
+        referencia: 'https://www.google.com/maps/place/Museo+de+las+Culturas+pasi%C3%B3n+Por+iztapalapa/@19.3578932,-99.0886145,19z/data=!4m5!3m4!1s0x85d1fdef1f9a6ab3:0x109752766732863e!8m2!3d19.3575828!4d-99.0875471',
         programa: [
             [{ interprete: 8, contenido: null}],
             [{ interprete: 9, contenido: null}]
@@ -68,6 +77,7 @@ const eventos = {
         tipo: "Concierto",
         fecha: "28/11/2021",  hora: "12:00",
         recinto: "Por definir",
+        referencia: '#',
         programa: [
             [{ interprete: 0, contenido: null}],
             [{ interprete: 7, contenido: null}],
@@ -308,7 +318,19 @@ class EventoFigi extends HTMLElement {
         style.textContent = estilos
 
         eventData.appendChild(lineInfo('Cuando?', `${evento.fecha} a las ${evento.hora} horas.`))
-        eventData.appendChild(lineInfo('Donde?', `${evento.recinto}`))
+        //eventData.appendChild(lineInfo('Donde?', `${evento.recinto}`))
+        let recinto = creaElemento('p')
+        let donde = creaElemento('b', 'class', 'derecha')
+        let lugar = creaElemento('a', 'class', 'linkRecinto')
+        donde.textContent = 'Donde?'
+        lugar.textContent = `${evento.recinto}`
+        lugar.setAttribute('target', '_blank')
+        lugar.href = `${evento.referencia}`
+        recinto.appendChild(donde)
+        recinto.appendChild(lugar)
+        console.log(recinto)
+        eventData.appendChild(recinto)
+        
 
         shadow.appendChild(style)
         shadow.appendChild(titulo)
