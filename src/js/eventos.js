@@ -80,7 +80,8 @@ const interpretes = {
     "0": {
         nombre: "Por definir",
         resenia: `Por definir`,
-        imagen: "./src/img/chile.jpeg"
+        imagen: "./src/img/chile.jpeg",
+        fondo: './src/img/FIGFondo.png'
     },
     "1": {
         nombre: "Natalia Tarquino",
@@ -89,35 +90,40 @@ const interpretes = {
         Su formación Musical se ha complementado con su experiencia como docente en el área infantil, donde ha podido emprender investigaciones entorno a la pedagogía infantil de la guitarra y los que ha logrado llevar a cabo en México. También emprendió estudios en el Área de la Dirección Orquestal, por lo que cursó en la Universidad Veracruzana el Diplomado en Ensambles Instrumentales, el que culminó y aprobó satisfactoriamente luego de dirigir en quinteto de cuerdas el 3er Movimiento (Sentimental Saraband) de la Simple Symphony de Benjamin Britten en 2021. 
         Actualmente Natalia se encuentra radicada en Xalapa - México donde tuvo la oportunidad de formar su perfil laboral, al entrar como Consultora Académica del Instituto Superior de Música del Estado de Veracruz en 2020. Hoy en día ocupa el cargo como Subdirectora Académica de esta institución; de tanto valor dentro del arte y la cultura veracruzana en el territorio mexicano.`,
         imagen: "./src/img/Natalia.jpeg",
-        fondo: './src/img/NataliaFondo.png'
+        fondo: './src/img/NataliaFondo.jpg'
     },
     "2": {
         nombre: "Blanca Pineda",
         resenia: `Licenciada en piano por la Facultad de Música UNAM, discípula de Jesús María Figueroa, Eva del Carmen Medina y Francisco Viesca. Ha perfeccionado sus conocimientos musicales con cursos sobre Bach, música española, análisis auditivo de la música, método Alexander, ensamble, improvisación y docencia. Sus estudios sobre jazz corrieron a cargo de personalidades como Felipe Gordillo, Juan José Calatayud y Daniel Wong.
         Su trayectoria incluye presentaciones como solista, acompañante, elemento de Orquesta Sinfónica y miembro de grupos de cámara. Ha sido directora musical e integrante de numerosos proyectos musicales. Actualmente cursa la maestría en Pedagogía de las Artes en la Universidad Veracruzana, es pianista del ensamble de cámara Scherzo, docente tutor investigador del IEMS, pianista titular de la Orquesta Sinfónica de la UACM y fundadora, pianista y directora de la banda de jazz Los Ochocuartos.`,
-        imagen: "./src/img/Blanca.jpg"
+        imagen: "./src/img/Blanca.jpg",
+        fondo: './src/img/BlancaFondo.jpg'
     },
     "3": {
         nombre: "Alan Bernal",
         resenia: "Discípulo de Blanca Pineda, comenzó como músico autodidacta para continuar en la Escuela de Iniciación Artística del Instituto Nacional de Bellas Artes número 2, para poder expandir sus horizontes musicales.  Ha tomado cursos de perfeccionamiento en jazz y música contemporánea. Actualmente estudia Educación Musical con especialidad en guitarra en la Facultad de Música UNAM, es profesor de guitarra y canto, guitarrista en la Orquesta Sinfónica de la UACM y en la banda de jazz Los Ochocuartos.",
-        imagen: "./src/img/Alan.jpg"
+        imagen: "./src/img/Alan.jpg",
+        fondo: './src/img/AlanFondo.jpg'
     },
     "4": {
         nombre: "Axel Trejo",
         resenia: `Originario de la Ciudad de México comenzó sus estudios musicales a la edad de 19 años en el Centro de estudios profesionales a nivel profesional “Ad Libitum”, bajo la dirección del profesor Alexis Huerta. Además, ha complementado sus estudios siendo alumno de guitarristas de talla internacional como Alí Arango y Mauro Zanatta.
         Sus intereses musicales se centran en la música escrita para laúd del S. XVI, particularmente se ha enfocado en la obra del compositor francés Adrian Le Roy de quien ha transcrito su Primer libro de tablatura de laúd.
         Hoy en día estudia el ciclo propedéutico de la licenciatura Instrumentista en guitarra de la Facultad de Música de la UNAM bajo la cátedra del profesor José Luis Segura Maldonado.`,
-        imagen: "./src/img/Axel.jpg"
+        imagen: "./src/img/Axel.jpg",
+        fondo: './src/img/AxelFondo.jpg'
     },
     "5": {
         nombre: "Compa Axel",
         resenia: "Reseña del interprete",
-        imagen: "./src/img/tomasa.jpg"
+        imagen: "./src/img/tomasa.jpg",
+        fondo: './src/img/FIGFondo.png'
     },
     "6": {
         nombre: "Sheila",
         resenia: "Reseña del interprete",
-        imagen: "./src/img/tomasa.jpg"
+        imagen: "./src/img/tomasa.jpg",
+        fondo: './src/img/FIGFondo.png'
     },
     "7": {
         nombre: "Cutberto Córdova Nieto",
@@ -127,7 +133,8 @@ const interpretes = {
         Gracias a su gran labor como compositor o como ejecutante, ha sido invitado en diversos foros tales como; ponente y con el Ensamble de Guitarras del ISMEV al 5º Festival Internacional de Orquestas de Guitarra en la ciudad de Cali Colombia; en una conferencia de su obra y clases magistrales en Boston en el Latin American Music Festival auspiciado por The Rivers School Conservatory; es ganador del la beca Habilitación del Perfil Internacional (HAPI) de la Universidad Veracruzana para realizar una Residencia Artística en la Universidad de Rio Grande Valley, Texas, Estados Unidos; invitado al conversatorio de compositores, además de ser interpretada su obra por la Orquesta Internacional de Guitarra en el XVI Encuentro Internacional de Guitarra en Panamá; como Jurado del Concurso Latinoamericano de Mujeres Intérpretes de la Guitarra en Hermosillo Sonora; clases magistrales, ponencia y concierto en la Universidad Distrital ASAB de Bogotá Colombia; ponencia de su CD Crónicas de Viaje en el Latin-American Guitar Festival Chicago Estados Unidos; participa en el Segundo, Tercer y Quinto Festival de Orquestas de Guitarra en la ciudad de Cali Colombia en las ediciones del donde interpretaron diversas orquestas de diferentes países su obra; conferencista en el Foro de Compositores Clutch en la Universidad de Austin Texas.
         Ha presentado su CD Mictlán en Latina, Italia; Caravaca de la Cruz, España; Universidad del Mozarteum en Salzburgo, Austria y en el Conservatorio Koninklijk de la Haya, Holanda.
         Realizó una gira con la Orquesta de Guitarras de Xalapa por un mes a China, desde Hong Kong hasta Beijing y se ha presentado en la Escuela de Artes Musicales de la Universidad de San José Costa Rica; en el Conservatorio de Música “G. B. Pergolesi” de Fermo Italia, así como una conferencia en la Universidad del Cuyo, Mendoza Argentina.`,
-        imagen: "./src/img/Cutberto.jpg"
+        imagen: "./src/img/Cutberto.jpg",
+        fondo: './src/img/CutbertoFondo.jpg'
     },
     "8": {
         nombre: "Marco Mizael Blanno Lugo",
@@ -137,14 +144,16 @@ const interpretes = {
         Ha tomado clases magistrales con el maestro Sergio Frías, Cutberto Córdoba, Natalia Tarquino, José Miguel García Torres, José Francisco Grijalva Vega, Edilberto Vega García, ha participado en cursos de dirección orquestal, métodos de pedagogía musical y el encuentro de guitarras de México de la FAM UNAM.
         En el año 2018 ingresa a la Orquesta Sinfónica de la Universidad Autónoma de la Ciudad de México en la que participo en cuatro temporadas, realizando conciertos en distintas ferias del libro, noche de museos, ferias internacionales; interpretando obras de todo tipo de repertorio, incluyendo popular, pero en un formato de música académica.
         De forma paralela a la Orquesta Sinfónica forma parte del Cuarteto de Guitarras de la OSUACM teniendo presentaciones en ciudad universitaria, museo de San Carlos, Ex convento de Culhuacán en noche de museos, entre otros.`,
-        imagen: "./src/img/Marco.jpg"
+        imagen: "./src/img/Marco.jpg",
+        fondo: './src/img/MarcoFondo.jpg'
     },
     "9": {
         nombre: "Marcos Yair Guzmán Rueda",
         resenia: `Comenzó sus estudios formales de música en el instrumento de guitarra clásica en la Escuela de Iniciación Artística No. 2. Posteriormente, ingresó a la Escuela de Bellas Artes de Toluca en la carrera técnica de músico instrumentista en guitarra clásica. 
         Actualmente estudia la carrera de instrumentista en guitarra de la Facultad de Música de la UNAM.
         Ha tenido presentaciones como solista; así como integrante del Ensamble Juvenil de Guitarras de la EBAT en distintos lugares, tales como: en la Académica de Música Yamaha; en la sala Xochipilli por el "Taller de Guitarras Clásicas"; "La Feria del tamal 2018" en San Lorenzo Tetlixtac; en el colegio de "Comunidad Europea"; en el "Colegio Cultural Cuauhtémoc"; la casa de cultura de El Sifón en la CDMX, en el auditorio Mozart de la EBAT, entre otros.`,
-        imagen: "./src/img/Yair.jpg"
+        imagen: "./src/img/Yair.jpg",
+        fondo: './src/img/YairFondo.jpg'
     }
 }
 
@@ -163,6 +172,10 @@ const muestraInfo = (persona) => {
     let miInterprete = interpretes[persona]
     let parrafos = miInterprete.resenia.split('\n')
     
+    let imagen = creaElemento('img', 'class', 'imgInterpreteInfo')
+    imagen.src = interpretes[persona].fondo 
+    espacio.appendChild(imagen)
+
     let titulo = creaElemento('h3', 'class', 'tituloInterpreteInfo')
     titulo.textContent = interpretes[persona].nombre 
     espacio.appendChild(titulo)
@@ -177,11 +190,11 @@ const muestraInfo = (persona) => {
     cierre.textContent = 'X'
     cierre.setAttribute('onClick', `cerrar()`)
     espacio.appendChild(cierre)
-    if(interpretes[persona].fondo) {
+    /*if(interpretes[persona].fondo) {
         espacio.style.backgroundImage = `url('${interpretes[persona].fondo}')`
     }else{
         espacio.style.backgroundImage = null
-    } 
+    } */
 
     espacio.style.display = 'block'
     
@@ -334,3 +347,6 @@ customElements.define('interprete-info', InterpreteInfo)
 
 customElements.define('evento-figi', EventoFigi)
 
+document.onkeydown = e => { 
+    if(e.key === 'Escape') cerrar()
+}

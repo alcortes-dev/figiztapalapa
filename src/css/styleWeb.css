@@ -9,7 +9,7 @@ body{
 
     font-family: 'Merienda', cursive;
     background-color: #000;
-    background-image: url("../img/guitarra2.jpg");
+    /*background-image: url("../img/guitarra2.jpg");*/
     
     background-size: cover;
     background-repeat: no-repeat;
@@ -84,7 +84,7 @@ evento-figi, interprete-info{
     width: 100%;
     height: 100%;
     z-index: 3;
-    padding: 20px 40px;
+    padding: 20px 60px;
     text-align: justify;
     background-color: rgba(0, 0, 0, 0.9);
     color:white;
@@ -95,9 +95,18 @@ evento-figi, interprete-info{
     background-position: top ;
 }
 
+
+.imgInterpreteInfo {
+    max-width: 800px;
+    display: block;
+    width:100%;
+    margin: 0 auto;
+}
+
+
 #interpreteResumen h3{
     font-size: 3em;
-    margin-top: 140px;
+    margin: 25px 0;
 }
 
 #cierre {
