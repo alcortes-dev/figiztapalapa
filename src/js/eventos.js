@@ -52,21 +52,21 @@ const eventos = {
     "7": {
         tipo: "Clase Magistral",
         fecha: "27/11/2021", hora: "16:00",
-        recinto: "Museo Nacional de las Culturas Polulares",
+        recinto: "Museo de las Culturas pasión Por iztapalapa",
         referencia: 'https://www.google.com/maps/place/Museo+de+las+Culturas+pasi%C3%B3n+Por+iztapalapa/@19.3578932,-99.0886145,19z/data=!4m5!3m4!1s0x85d1fdef1f9a6ab3:0x109752766732863e!8m2!3d19.3575828!4d-99.0875471',
         imparte: 7
     },
     "8": {
         tipo: "Clase Magistral",
         fecha: "27/11/2021",  hora: "16:45",
-        recinto: "Museo Nacional de las Culturas Polulares",
+        recinto: "Museo de las Culturas pasión Por iztapalapa",
         referencia: 'https://www.google.com/maps/place/Museo+de+las+Culturas+pasi%C3%B3n+Por+iztapalapa/@19.3578932,-99.0886145,19z/data=!4m5!3m4!1s0x85d1fdef1f9a6ab3:0x109752766732863e!8m2!3d19.3575828!4d-99.0875471',
         imparte: 7
     },
     "9": {
         tipo: "Concierto",
         fecha: "27/11/2021",  hora: "17:30",
-        recinto: "Museo Nacional de las Culturas Polulares",
+        recinto: "Museo de las Culturas pasión Por iztapalapa",
         referencia: 'https://www.google.com/maps/place/Museo+de+las+Culturas+pasi%C3%B3n+Por+iztapalapa/@19.3578932,-99.0886145,19z/data=!4m5!3m4!1s0x85d1fdef1f9a6ab3:0x109752766732863e!8m2!3d19.3575828!4d-99.0875471',
         programa: [
             [{ interprete: 8, contenido: null}],
