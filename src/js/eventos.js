@@ -124,16 +124,29 @@ const interpretes = {
         fondo: './src/img/AxelFondo.jpg'
     },
     "5": {
-        nombre: "Compa Axel",
-        resenia: "Reseña del interprete",
-        imagen: "./src/img/FIG_image.png",
-        fondo: './src/img/FIGFondo.png'
+        nombre: "Alexis Huerta Jurado",
+        resenia: `Soy un músico mexicano que quiere brindar música de la mejor calidad para el público y así abrir una nueva ventana a la cultura.
+                  Estudió ña Ñicenciatura en Guitarra en el Conservatorio Nacional de Música.
+                  Ha tomado clases magistrales con Bertha Rojas, Benjamín Garrido, Iliana Matos, Denis Azabagic, Simon Powis, Gohar Vardanyan, Duo Angostino y Horacio Franco.
+                  Participó en el Concurso Interno del Conservatorio Nacional de Música en las ediciones 2015, 2018 y 2019.
+                  Se ha presentado en diferentes foros como la Sala Silvestre Revueltas, Sala de recepciones del MUNAL, Museo Dolores Olmedo, Museo del Virreinato Walter J. Mannien Center for the Arts (Beverly Massachussets). y el Museo del Carmen.
+                  Se ha desempeñado como Maestro de guitarra en el Ad Libitum - Centro de estudios musicales a nivel profesional durante el 2018 a 2019; y como Maestro de guitarra, bajo y ukelele en el MVS Music Center desde el 2018.`,
+        imagen: "./src/img/Alexis.jpg",
+        fondo: './src/img/AlexisFondo.jpg'
     },
     "6": {
-        nombre: "Sheila",
-        resenia: "Reseña del interprete",
-        imagen: "./src/img/FIG_image.png",
-        fondo: './src/img/FIGFondo.png'
+        nombre: "Sheila Mónica Muñiz Estrada",
+        resenia: `En el 2014, inicia sus estudios musicales, con la especialización en guitarra clásica, en la escuela de iniciación artística #4 (INBA), en el año 2017 egresa de dicha institución.
+        En 2019 ingresa al Conservatorio Nacional de Música de México, a la Licenciatura de enseñanza musical, con la guitarra como instrumento eje, bajo la cátedra del maestro Roberto Medrano.
+        Ha participado como solista en distintos recintos culturales del estado de México como: Casa de Morelos, Centro Cultural Real del Bosque, Estación Lírica CM, centro cultural mexiquense, y en la ciudad de México, como, Museo Nacional de Arte, Museo Casa Carranza, Biblioteca Vasconcelos.
+        En 2017 se integra a la Orquesta sinfónica de la UACM, participando en distintos escenarios, como: Desierto de los leones, centro cultural México contemporáneo, museo Nacional de antropología e historia, la antigua academia de San Carlos, biblioteca México, Centro cultural Venustiano Carranza, Centro cultural mexiquense, Ex convento de Culhuacán, así como en una clínica de interpretación de cuerdas.
+        Ha participado con el cuarteto de guitarras SUACM, en distintos eventos como: Festival guitarreando, , feria del tamal en Coacalco, museo de San Carlos, Ciudad Universitaria, feria del libro de la Alameda central, centro cultural Elena Garro, Ex convento de Culhuacán, Palacio de medicina, Centro Vlady, museo de las culturas pasión por Ixtapalapa, este último, Junto al compositor y Guitarrista Veracruzano Cutberto Córdova Nieto.
+        A mediados del año 2018 comienza a impartir clases de música en centros culturales.
+        Ha participado con el ensamble de música popular 'Cuerdas al Aire' en recintos culturales del Edo de México: Festival ¨Guitarreando¨ día Nacional de la guitarra, Casa de Morelos, en la Ciudad de México: Centro Cultural Acatitla, Centro Cultural Elena Garro, entre otros. 
+        En el 2020, debido a la pandemia comienza a dar recitales virtuales de música académica. En el 2021, da inicio a un proyecto en su canal de Youtube, llamado 'Grandes maestros de la guitarra de concierto' (https://youtube.com/channel/UCzIRiOPp3evte7rXAiCe60A ) donde busca promover la guitarra clásica, e impulsar a las personas a acercarse a la música, por medio de entrevistas virtuales a maestros reconocidos en el ámbito musical de dicho instrumento.
+        Actualmente se encuentra en el ámbito de la docencia a nivel básico, en el Centro Cultural Real del Bosque e impartiendo clases particulares,continúa como guitarrista en la Orquesta Sinfónica de la UACM, en el ensamble Cuerdas al Aire, como solista y en diversos proyectos personales.`,
+        imagen: "./src/img/Sheila.jpg",
+        fondo: './src/img/SheilaFondo.jpg'
     },
     "7": {
         nombre: "Cutberto Córdova Nieto",
