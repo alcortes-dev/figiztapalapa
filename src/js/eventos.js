@@ -45,7 +45,7 @@ const eventos = {
         recinto: "Exconvento Culhuacan",
         referencia: 'https://www.google.com/maps/place/Ex+Convento+de+Culhuac%C3%A1n/@19.3395286,-99.1081752,18z/data=!3m1!5s0x85ce01fdfb485a27:0xca00c51275a1e5ef!4m5!3m4!1s0x85ce01fded985e43:0x4199351d66eda0d6!8m2!3d19.3398968!4d-99.1074886',
         programa: [
-            [{ interprete: 6, contenido: null}],
+            [{ interprete: 8, contenido: null}],
             [{ interprete: 1, contenido: null}]
         ]
     },
@@ -65,11 +65,11 @@ const eventos = {
     },
     "9": {
         tipo: "Concierto",
-        fecha: "27/11/2021",  hora: "17:30",
+        fecha: "27/11/2021",  hora: "18:00",
         recinto: "Museo de las Culturas pasión Por iztapalapa",
         referencia: 'https://www.google.com/maps/place/Museo+de+las+Culturas+pasi%C3%B3n+Por+iztapalapa/@19.3578932,-99.0886145,19z/data=!4m5!3m4!1s0x85d1fdef1f9a6ab3:0x109752766732863e!8m2!3d19.3575828!4d-99.0875471',
         programa: [
-            [{ interprete: 8, contenido: null}],
+            [{ interprete: 6, contenido: null}],
             [{ interprete: 9, contenido: null}]
         ]
     },
