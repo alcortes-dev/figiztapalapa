@@ -83,6 +83,10 @@ evento-figi, interprete-info{
     background-color: rgba(255, 255, 255, 0.8);
 }
 
+#presentacion video{
+    width: 100%;
+}
+
 #interpreteResumen {
     display: none;
     position:fixed;
