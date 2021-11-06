@@ -341,7 +341,6 @@ class EventoFigi extends HTMLElement {
         lugar.href = `${evento.referencia}`
         recinto.appendChild(donde)
         recinto.appendChild(lugar)
-        console.log(recinto)
         eventData.appendChild(recinto)
         
 
