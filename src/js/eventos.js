@@ -41,7 +41,7 @@ const eventos = {
     },
     "6": {
         tipo: "Concierto",
-        fecha: "21/11/2021",  hora: "12:30",
+        fecha: "21/11/2021",  hora: "12:00",
         recinto: "Exconvento Culhuacan",
         referencia: 'https://www.google.com/maps/place/Ex+Convento+de+Culhuac%C3%A1n/@19.3395286,-99.1081752,18z/data=!3m1!5s0x85ce01fdfb485a27:0xca00c51275a1e5ef!4m5!3m4!1s0x85ce01fded985e43:0x4199351d66eda0d6!8m2!3d19.3398968!4d-99.1074886',
         programa: [
@@ -76,8 +76,8 @@ const eventos = {
     "10": {
         tipo: "Concierto",
         fecha: "28/11/2021",  hora: "12:00",
-        recinto: "Por definir",
-        referencia: '#',
+        recinto: "Sala Quetzalcoatl",
+        referencia: 'https://www.google.com/maps/place/Auditorio+%22Quetzalcoatl%22/@19.3584681,-99.0905918,19.37z/data=!3m1!5s0x85d1fde5fe944127:0xa8ec348d62910dc9!4m5!3m4!1s0x85d1fde5fcdda86d:0x5397b1774d229a9e!8m2!3d19.3587669!4d-99.0906742',
         programa: [
             [{ interprete: 0, contenido: null}],
             [{ interprete: 7, contenido: null}],
@@ -124,9 +124,9 @@ const interpretes = {
         fondo: './src/img/AxelFondo.jpg'
     },
     "5": {
-        nombre: "Alexis Huerta Jurado",
-        resenia: `Soy un músico mexicano que quiere brindar música de la mejor calidad para el público y así abrir una nueva ventana a la cultura.
-                  Estudió ña Ñicenciatura en Guitarra en el Conservatorio Nacional de Música.
+        nombre: "Alexis Huerta",
+        resenia: `Músico mexicano que quiere brindar música de la mejor calidad para el público y así abrir una nueva ventana a la cultura.
+                  Estudió la licenciatura en Guitarra en el Conservatorio Nacional de Música.
                   Ha tomado clases magistrales con Bertha Rojas, Benjamín Garrido, Iliana Matos, Denis Azabagic, Simon Powis, Gohar Vardanyan, Duo Angostino y Horacio Franco.
                   Participó en el Concurso Interno del Conservatorio Nacional de Música en las ediciones 2015, 2018 y 2019.
                   Se ha presentado en diferentes foros como la Sala Silvestre Revueltas, Sala de recepciones del MUNAL, Museo Dolores Olmedo, Museo del Virreinato Walter J. Mannien Center for the Arts (Beverly Massachussets). y el Museo del Carmen.
