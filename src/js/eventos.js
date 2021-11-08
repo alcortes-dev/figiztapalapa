@@ -191,7 +191,7 @@ const interpretes = {
         fondo: './src/img/MiguelFondo.jpg'
     },
     "12": {
-        nombre: "Cuarteto de la UACM",
+        nombre: "Cuarteto SUAM",
         resenia: ``,
         imagen: "./src/img/FIG_image.png",
         fondo: './src/img/FIGFondo.png'
