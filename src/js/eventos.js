@@ -191,8 +191,12 @@ const interpretes = {
         fondo: './src/img/MiguelFondo.jpg'
     },
     "12": {
-        nombre: "Cuarteto SUAM",
-        resenia: ``,
+        nombre: "Cuarteto de Guitarras SUAM",
+        resenia: `El Cuarteto de Guitarras SUACM se forma en Enero de 2018, por el Amor y la Pasión de sus integrantes hacia la Guitarra de Concierto, teniendo como prioridad la interpretación y difusión de los Grandes Compositores Mexicanos de la Guitarra Clásica, sin dejar de lado al resto del mundo. El Cuarteto de Guitarras SUACM cuenta con una amplia trayectoria de sus integrantes en la Guitarra de Concierto, tanto solistas como en diferentes ensambles, se ha presentado en diferentes foros como: el Antiguo Colegio de San Carlos, el Museo de San Carlos, el Palacio de Medicina de la UNAM. El Ex Convento del Desierto de   los Leones, Ex Convento de Cilhucán, Museo de las culturas Pasión por Iztapalapa, así como en galerías, ferias de libro y ferias populares.
+                Integrantes:
+                José Miguel García Torres FaM UNAM
+                Marco Mizarl Blanno Lugo EBAT
+                Gabriel Lara Amador INBA`,
         imagen: "./src/img/FIG_image.png",
         fondo: './src/img/FIGFondo.png'
     }
