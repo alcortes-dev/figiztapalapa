@@ -30,14 +30,14 @@ const eventos = {
         fecha: "21/11/2021",  hora: "10:30",
         recinto: "Exconvento Culhuacan",
         referencia: 'https://www.google.com/maps/place/Ex+Convento+de+Culhuac%C3%A1n/@19.3395286,-99.1081752,18z/data=!3m1!5s0x85ce01fdfb485a27:0xca00c51275a1e5ef!4m5!3m4!1s0x85ce01fded985e43:0x4199351d66eda0d6!8m2!3d19.3398968!4d-99.1074886',
-        imparte: 0
+        imparte: 10
     },
     "5": {
         tipo: "Clase Magistral",
         fecha: "21/11/2021",  hora: "11:15",
         recinto: "Exconvento Culhuacan",
         referencia: 'https://www.google.com/maps/place/Ex+Convento+de+Culhuac%C3%A1n/@19.3395286,-99.1081752,18z/data=!3m1!5s0x85ce01fdfb485a27:0xca00c51275a1e5ef!4m5!3m4!1s0x85ce01fded985e43:0x4199351d66eda0d6!8m2!3d19.3398968!4d-99.1074886',
-        imparte: 0
+        imparte: 10
     },
     "6": {
         tipo: "Concierto",
@@ -79,9 +79,9 @@ const eventos = {
         recinto: "Sala Quetzalcoatl",
         referencia: 'https://www.google.com/maps/place/Auditorio+%22Quetzalcoatl%22/@19.3584681,-99.0905918,19.37z/data=!3m1!5s0x85d1fde5fe944127:0xa8ec348d62910dc9!4m5!3m4!1s0x85d1fde5fcdda86d:0x5397b1774d229a9e!8m2!3d19.3587669!4d-99.0906742',
         programa: [
-            [{ interprete: 0, contenido: null}],
+            [{ interprete: 11, contenido: null}],
             [{ interprete: 7, contenido: null}],
-            [{ interprete: 0, contenido: null}]
+            [{ interprete: 12, contenido: null}]
         ]
     }
 }
@@ -177,7 +177,27 @@ const interpretes = {
         Ha tenido presentaciones como solista; así como integrante del Ensamble Juvenil de Guitarras de la EBAT en distintos lugares, tales como: en la Académica de Música Yamaha; en la sala Xochipilli por el "Taller de Guitarras Clásicas"; "La Feria del tamal 2018" en San Lorenzo Tetlixtac; en el colegio de "Comunidad Europea"; en el "Colegio Cultural Cuauhtémoc"; la casa de cultura de El Sifón en la CDMX, en el auditorio Mozart de la EBAT, entre otros.`,
         imagen: "./src/img/Yair.jpg",
         fondo: './src/img/YairFondo.jpg'
+    },
+    "10": {
+        nombre: "José Luis Segura",
+        resenia: `Licenciado Instrumentista en Guitarra por la Facultad de Música de la UNAM, donde se graduó con mención Honorifica. Concluyo sus estudios de Maestría en Musicología en el Posgrado en Música de la UNAM. Realizo un curso de Posgrado en la Real Academia de Bellas Artes de San Fernando y el Conservatorio “Reina Sofía” en Madrid España. Ha ofrecido recitales en salas de concierto a lo largo de la república Mexicana, así como en varios países de Europa, América Latina y el Caribe; como solista, solista con orquesta, con Nova Música Guitar Duo, con el Cuarteto de Guitarras de la Ciudad de México, con el Duo Lux Chordarum y con el grupo de rock Fausto. Ha dictado conferencias e impartido cursos en diversos foros académicos y universidades de México, así como en Bolivia, Cuba, España y Perú. Del año 2011 a 2018 fue coordinador de investigación del CENIDIM Carlos Chávez del INBA. Actualmente se desempeña como profesor de Guitarra y Música de Cámara en la Facultad de Música de la UNAM, donde ademas es presidente del Claustro de Guitarra e integrante del Comité Editorial.`,
+        imagen: "./src/img/JoseLuisSegura.jpg",
+        fondo: './src/img/JoseLuisSeguraFondo.jpg'
+    },
+    "11": {
+        nombre: "José Miguel García Torres",
+        resenia: `Licenciado en Guitarra Clásica por la Facultad de Música de la UNAM. Ha tomado cursos de perfeccionamiento guitarrístico en las áreas de música del siglo XVI, Jazz, Lectura a primera vista, Tablatura Renacentista, Interpretación en música del siglo XX, Dirección Coral, Dirección de ensambles musicales diversos, Interpretación de música contemporánea (Rock). Ha formado parte de diversas agrupaciones musicales como la Orquesta Sinfónica de la UACM bajo la batuta del director Francisco Grijalba; Dirección y participación del Cuarteto de Guitarras de la UACM. También ha participado en el área vocal con el Coro Filarmónico Universitario UNAM; coro Gabriel Zaldívar del Centro Cultural Ollín Yoliztli. Ha tenido diversas presentaciones como solista o con ensambles musicales en la CDMX y en el interior de la república como son el Auditorio Nacional, la Sala Nezahualcóyotl, la sala Silvestre Revueltas del Centro Cultural Ollín Yoliztli, en la Universidad Autónoma de Nuevo León, en el Centro Cultural Mexiquense Bicentenario, por mencionar algunos. Actualmente imparte la asignatura de Educación Estética y Artística Música IV y V en el plantel No. 8 “Miguel E. Schulz” de la Escuela Nacional Preparatoria en la Ciudad de México.`,
+        imagen: "./src/img/Miguel.jpg",
+        fondo: './src/img/MiguelFondo.jpg'
+    },
+    "12": {
+        nombre: "Cuarteto de la UACM",
+        resenia: ``,
+        imagen: "./src/img/FIG_image.png",
+        fondo: './src/img/FIGFondo.png'
     }
+
+
 }
 
 const programas = {
@@ -270,6 +290,11 @@ const estilosInterprete = `
         background-color: rgba(255, 255, 255, 0.8);
         border-radius: 10px;
         margin: 10px;
+    }
+
+    .persona:hover{
+        color: #682444;
+        cursor: pointer;
     }
     .imgInterprete {
         width: 60px;
